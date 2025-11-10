@@ -1,0 +1,26 @@
+his tells Git to ignore all the files and folders we don't want to upload.
+
+1. Ignore all data file types
+
+*.mat
+*.fif
+*.csv
+
+2. Ignore all plot/image files
+
+*.png
+*.jpg
+*.jpeg
+
+3. Ignore the data folders by name
+
+The "/" at the end means it's a folder
+
+"EEG Data"/
+filtered_EEG_data/
+plot_outputs/
+
+4. Ignore Python and Jupyter cache files
+
+pycache/
+.ipynb_checkpoints/
